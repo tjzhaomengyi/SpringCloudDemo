@@ -1,0 +1,8 @@
+
+microcloud/\.idea/
+
+microcloud/microcloud-api/target/
+
+microcloud/microcloud-provider-dept-8001/target/
+
+*.iml
