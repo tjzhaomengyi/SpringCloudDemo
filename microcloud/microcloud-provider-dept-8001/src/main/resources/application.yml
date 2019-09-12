@@ -18,3 +18,13 @@ spring:
       initial-size: 5                               # 初始化提供的连接数
       max-total: 5                                  # 最大的连接数
       max-wait-millis: 200                          # 等待连接获取的最大超时时间
+
+#security:
+#  basic:
+#    enabled: true #启用SpringSecurity的安全配置项
+#  user:
+#    name: mikemyzhao #认证用户名
+#    password: 123321  #认证密码
+#    role:       #授权角色
+#      - USER
+#  sessions: always  使用安全配置模块设置了，就不用这个了

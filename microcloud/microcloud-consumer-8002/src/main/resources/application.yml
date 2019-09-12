@@ -1,0 +1,5 @@
+server:
+  port: 8002
+
+logging:
+  file: consumer.log

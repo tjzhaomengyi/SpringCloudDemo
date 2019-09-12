@@ -5,6 +5,8 @@
 	<modules>
 		<module>microcloud-api</module>
 		<module>microcloud-provider-dept-8001</module>
+		<module>microcloud-consumer-8002</module>
+		<module>microcloud-security</module>
 	</modules>
 
 	<groupId>com.mikemyzhao</groupId>
@@ -43,6 +45,12 @@
 				<version>0.0.1-SNAPSHOT</version>
 <!--				<type>pom</type>-->
 <!--				<scope>import</scope>-->
+			</dependency>
+
+			<dependency>
+				<artifactId>microcloud-security</artifactId>
+				<groupId>com.mikemyzhao</groupId>
+				<version>0.0.1-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
